@@ -31,7 +31,7 @@ Expected Output:
 
 */ 
  
-let phoneReg = /write your regex here/
+let phoneReg = /\d{3}-\d{3}-\d{4}/ig
 
 /* 
 
@@ -51,7 +51,7 @@ Expected Output:
 
 */ 
 
-let emailReg = /write your regex here/
+let emailReg = /\w+@[a-z]+\.[a-zA-Z]+/ig
 
 /* 
 
@@ -67,4 +67,4 @@ Expected Output:
 
 */ 
 
-let statusReg = /write your regex here/
+let statusReg = /status/ig
